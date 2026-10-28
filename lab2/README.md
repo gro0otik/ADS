@@ -6,7 +6,6 @@
 
 **Дисциплина:** Алгоритмы и структуры данных (АиСД)
 
-**Семестр:** 3
 
 ## 📋 Описание задания
 
@@ -54,5 +53,9 @@
 1. Откройте терминал в корневой папке проекта (где лежит `main.cpp`).
 2. Создайте папку для сборки и перейдите в нее:
    ```bash
+   cd "C:\Users\Windows\Desktop\Univer\study\3 semestr\AaDS\lab\lab2"
    mkdir build
-   cd build
+   d build
+   cmake ..
+   cmake --build . --config Release
+   .\Release\lab2.exe 
